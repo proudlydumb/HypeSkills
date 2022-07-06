@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/sign.css" />
+  <link rel="icon" href="./Img/degree.png">
+  <title>Hype Skills</title>
+</head>
+
+<body>
+  <!-- main container -->
+  <div class="container">
+    <!-- form container -->
+    <div class="form-container">
+      <div class="signin-signup">
+        <!-- signin container -->
+        <form action="#" class="sign-in-form">
+          <h2 class="title">Sign In</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" id="myin" />
+            <span class="eye" onclick="myfunction()">
+              <i id="hide1" class="fa fa-eye"></i>
+              <i id="hide2" class="fa fa-eye-slash"></i>
+            </span>
+          </div>
+          <input type="submit" class="btn solid" value="Login" />
+          <p class="social-text">Or sign in with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icons">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icons">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icons">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icons">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </form>
+        <!-- signup container -->
+        <form action="#" class="sign-up-form">
+          <h2 class="title">Sign Up</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" id="myinput" />
+            <span class="eye" onclick="my_function()">
+              <i id="hide-1" class="fa fa-eye"></i>
+              <i id="hide-2" class="fa fa-eye-slash"></i>
+            </span>
+          </div>
+          <label>
+            <input type="checkbox" />
+            <div class="box-highlight">
+              <span class="box">
+                <i class="fa-solid fa-check tick"></i>
+              </span>
+            </div>
+            <div class="text">
+              I have read and agree to the
+              <a href="#">Terms and Conditions</a>
+            </div>
+          </label>
+          <a href="./afterLogin.html"><input type="submit" class="btn solid" value="Login"/></a>
+          
+          <p class="social-text">Or sign up with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icons">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icons">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icons">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icons">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- panel container -->
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>New Here?</h3>
+          <p>
+            If you are a new user than please sign up first to exprience
+            digital learning.
+          </p>
+          <button class="btn transparent" id="sign-up-button">Sign Up</button>
+        
+        </div>
+        <img src="Img/svg.up.svg" alt="" class="image" />
+      </div>
+
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>Already a user</h3>
+          <p>
+            If you are already a user than please sign in to continue your
+            progress.
+          </p>
+           <button class="btn transparent" id="sign-in-button">Sign In</button>
+         
+        </div>
+        <img src="Img/svg.log.svg" alt="" class="image" />
+      </div>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

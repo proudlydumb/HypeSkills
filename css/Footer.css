@@ -1,0 +1,77 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu&display=swap"); */
+
+/* Footer Top  */
+
+footer .top {
+  padding: 2.5rem 3rem 5rem;
+  background-color: rgb(199, 33, 33);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+footer .top-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.top-left a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.top-left .column {
+  margin-right: 8rem;
+}
+
+.top-right i {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  color: rgb(199, 33, 33);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.top-right i:hover {
+  transform: scale(1.1);
+}
+
+.top-right .fa-instagram {
+  margin-right: 0.5rem;
+}
+
+/* Footer Bottom */
+
+.bottom {
+  color: white;
+  padding: 1rem 3rem;
+  background-color: rgb(45, 45, 45);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.bottom-left img {
+  width: 15rem;
+  margin-right: 1rem;
+}
+
+.bottom-right {
+  font-size: 0.8rem;
+}

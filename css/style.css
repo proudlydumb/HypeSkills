@@ -1,0 +1,90 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+/* font-family: 'Ubuntu', sans-serif;   try this */
+
+/* nav bar start */
+#img {
+  width: 15%;
+  padding-right: 2%;
+}
+#sign {
+  padding-right: 2%;
+  text-decoration: none;
+  color: white;
+}
+#sign1 {
+  margin-right: 2%;
+}
+h2 {
+  text-decoration: underline;
+}
+.last {
+  padding-bottom: 2%;
+}
+/* nav bar ends */
+
+/* Body start */
+#body-img {
+  width: 60%;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-bottom: 6%;
+}
+
+.body-heading {
+  margin: 38% 7% 8% 15%;
+  font-size: 1rem;
+  color: black;
+} /* Body ends */
+.body-button {
+  margin-left: 38%;
+  margin-bottom: 2%;
+}
+/* Features start */
+#features {
+  background-color: rgb(234, 221, 221);
+  padding: 7% 15%;
+  text-align: center;
+}
+.f-heading {
+  color: black;
+}
+#icons {
+  font-size: 3.5rem;
+  padding-bottom: 10px;
+  color: #ff4c68;
+}
+#icons:hover {
+  color: red;
+}
+/* features end */
+#testimonials {
+  padding: 7% 15%;
+  color: black;
+  background-color: rgb(172, 172, 237);
+  text-align: center;
+}
+.em {
+  font-weight: bold;
+}
+.test {
+  line-height: 1.5;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-decoration: none;
+}
+.testimonials-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 20px;
+  width: 10%;
+}
